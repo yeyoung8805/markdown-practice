@@ -44,3 +44,25 @@ _**두껍게 + 이탤릭**_ <br/>
     - 순서가 필요하지 않은 목록
     - 순서가 필요하지 않은 목록
 - 순서가 필요하지 않은 목록
+
+# 링크(links)
+
+<a href="https://google.com">GOOGLE</a>
+
+[GOOGLE](https://google.com)
+
+<a href="https://naver.com" title="NAVER로 이동!">NAVER</a>
+
+[NAVER](https://naver.com "NAVER로 이동!")
+
+<a href="https://naver.com" title="NAVER로 이동!" target="_blank">NAVER</a>
+
+# 이미지(Images)
+*링크와 이미지의 차이
+
+[HEROPY](https://heropy.blog/css/images/logo.png)
+![HEROPY](https://heropy.blog/css/images/logo.png)
+
+*이미지에 링크 설정하기
+
+[![HEROPY](https://heropy.blog/css/images/logo.png)](https://heropy.blog/)
