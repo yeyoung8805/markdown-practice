@@ -125,3 +125,36 @@ $ git commit -m 'Study Markdown'
 가나다라 마바사
 아자차카 타파하
 ```
+
+# 표(Table)
+
+position 속성
+
+값 | 의미 | 기본값
+--|--|--
+static | 기준없음 | O
+relative | 요소자신 | X
+absolute | 위치상 부모요소 | X
+fixed | 뷰포트 | X
+
+
+*기본값은 왼쪽정렬이다.
+
+*가운데 정렬 예시 ('의미' 열 부분)
+
+값 | 의미 | 기본값
+--|:--:|--
+static | 기준없음 | O
+relative | 요소자신 | X
+absolute | 위치상 부모요소 | X
+fixed | 뷰포트 | X
+
+
+*오른쪽 정렬 예시('기본값' 열 부분)
+
+값 | 의미 | 기본값
+--|--|--:
+static | 기준없음 | O
+relative | 요소자신 | X
+absolute | 위치상 부모요소 | X
+fixed | 뷰포트 | X
