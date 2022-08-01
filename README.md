@@ -171,7 +171,7 @@ fixed | 뷰포트 | X
 하느님이 보우하사 우리나라 만세
 
 *아래 내용은 (마크다운 문법이 지원이 안되므로) width 속성을 직접 원시 HTML로 입력 : <br/>
-<img width="70" src="https://heropy.blog/css/images/logo.png" alt="HEROPY"/>
+<!-- <img width="70" src="https://heropy.blog/css/images/logo.png" alt="HEROPY"/> -->
 
 
 # 수평선(Horizontal Rule)
