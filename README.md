@@ -158,3 +158,25 @@ static | 기준없음 | O
 relative | 요소자신 | X
 absolute | 위치상 부모요소 | X
 fixed | 뷰포트 | X
+
+# 원시 HTML(RAW HTML)
+
+동해물과 <u>백두산</u>이 마르고
+닳도록 <br/>
+하느님이 보우하사 우리나라 만세
+
+*u 태그 대신에 span 에 underline 속성을 넣어도 같은 결과 : <br />
+동해물과 <span style="text-decoration: underline;">백두산</span>이 마르고
+닳도록 <br/>
+하느님이 보우하사 우리나라 만세
+
+*아래 내용은 (마크다운 문법이 지원이 안되므로) width 속성을 직접 원시 HTML로 입력 : <br/>
+<img width="70" src="https://heropy.blog/css/images/logo.png" alt="HEROPY"/>
+
+
+# 수평선(Horizontal Rule)
+
+*수평선이 되는 기호들 (세번씩 넣기)
+---
+***
+___
