@@ -55,14 +55,73 @@ _**두껍게 + 이탤릭**_ <br/>
 
 [NAVER](https://naver.com "NAVER로 이동!")
 
+*target 속성은 마크다운에서 지원하지 않는다. <br/>
 <a href="https://naver.com" title="NAVER로 이동!" target="_blank">NAVER</a>
 
 # 이미지(Images)
-*링크와 이미지의 차이
+*링크와 이미지의 차이 <br/>
 
-[HEROPY](https://heropy.blog/css/images/logo.png)
-![HEROPY](https://heropy.blog/css/images/logo.png)
+<!-- [HEROPY](https://heropy.blog/css/images/logo.png) -->
+<!-- ![HEROPY](https://heropy.blog/css/images/logo.png) -->
 
-*이미지에 링크 설정하기
+*이미지에 링크 설정하기 <br/>
 
-[![HEROPY](https://heropy.blog/css/images/logo.png)](https://heropy.blog/)
+<!-- [![HEROPY](https://heropy.blog/css/images/logo.png)](https://heropy.blog/) -->
+
+# 인용문(BlockQuote)
+*기존 <br/>
+남의 말이나 글에서 직접 또는 간접으로 따온 문장. <br/>
+(네이버 국어 사전)
+
+*변경(인용문일 경우)
+>남의 말이나 글에서 직접 또는 간접으로 따온 문장. <br/>
+>(네이버 국어 사전)
+
+*인용문 중첩
+>인용문을 작성하세요!
+>>중첩된 인용문
+>>> 중첩된 인용문 1 <br/>
+>>> 중첩된 인용문 2 <br/>
+>>> 중첩된 인용문 3
+
+# 인라인(inline) 코드 강조
+*원본 <br/>
+CSS에서 background 혹은 background-image 속성으로 요소에 배경 이미지를 삽입할 수 있습니다.
+
+*변경(인라인 강조) <br/>
+CSS에서 `background` 혹은 `background-image` 속성으로 요소에 배경 이미지를 삽입할 수 있습니다.
+
+# 블록(block) 코드 강조
+<a href="https://www.google.co.kr/" target="_blank">GOOGLE</a>
+
+*HTML 블록 코드에 하이라이팅이 반영됨
+```html
+<a href="https://www.google.co.kr/" target="_blank">GOOGLE</a>
+```
+
+*CSS 블록 코드에 하이라이팅이 반영됨
+```css
+.list > li {
+  position: absolute;
+  top: 40px;
+}
+```
+
+*Javascript 블록 코드에 하이라이팅이 반영됨
+```javascript
+function func() {
+  var a = 'AAA';
+  return a;
+}
+```
+
+*터미널에 입력하는 bash 명령어에도 하이라이팅이 반영됨
+```bash
+$ git commit -m 'Study Markdown'
+```
+
+*개발언어 아닌 텍스트도 블록코드로 강조 가능
+```plaintext
+가나다라 마바사
+아자차카 타파하
+```
